@@ -1,0 +1,21 @@
+* /home/firuza/eSim-Workspace/BabySoC/BabySoC.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Tue Apr 26 11:28:29 2022
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ rvmyth		
+U4  Clk_Out_by_8 Reset Net-_U1-Pad1_ Net-_U1-Pad2_ adc_bridge_2		
+U5  Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U5-Pad9_ Net-_U5-Pad10_ Net-_U5-Pad11_ Net-_U5-Pad12_ Net-_U5-Pad13_ Net-_U5-Pad14_ Net-_U5-Pad15_ Net-_U5-Pad16_ dac_bridge_8		
+U6  Net-_U1-Pad11_ Net-_U1-Pad12_ Net-_U6-Pad3_ Net-_U6-Pad4_ dac_bridge_2		
+X1  Net-_U6-Pad4_ Net-_U6-Pad3_ Net-_U5-Pad16_ Net-_U5-Pad15_ Net-_U5-Pad14_ Net-_U5-Pad13_ Net-_U5-Pad12_ Net-_U5-Pad11_ Net-_U5-Pad10_ Net-_U5-Pad9_ Output 10bitDAC		
+v1  Clock GND pulse		
+v2  Reset GND pulse		
+U7  Output plot_v1		
+U3  Clk_Out_by_8 plot_v1		
+U2  Reset plot_v1		
+X2  Clock Clk_Out_by_8 ? ? ? ? ? ? avsdpll_01v8		
+
+.end
